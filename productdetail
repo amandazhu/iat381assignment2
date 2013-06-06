@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>filter</title>
+		<link rel="stylesheet" type="text/css" href="assignment2style.css"/>
+		<script type="text/javascript" src="jquery-1.10.1.js" ></script>
+	</head>
+	
+</html>
+
+<body>
+<div id="detailbox">
+	<div id ="detailimg">
+	<img src="img/female/cateye/full/100200/SG_1_large.jpg" alt="sunglass" height="240" width="141.5"> 
+	</div>
+	<div id ="detailtext">
+	<p id="name">Helter Skelter Sunglasser
+	</p>
+	<img src="img/stars/5_star.png" alt="sunglass" height="22.75" width="122.75">(21)
+	<p>
+	$329</p>
+	</div>
+	
+	<div id="detailcontent">
+	<p>
+	These round sunglasses features a plastic tortoiseshell frame and a <br/>
+	metal bridge. Arrow accents at metal temples. Case and cleaning <br/>
+	cloth included.<br/><br/>
+	* Frame is 5.5" wide (measured from temple edges) and 2" high.<br/>
+	* Imported.
+	</p>
+	</div>
+</div> 
+
+<div id="alsolike">
+<p class = "dbigtext">You may also like</p>
+<img src="img/female/cateye/full/300/Intergalactic-1301495_large.jpg" alt="sunglass" height="240" width="141.5">
+<img src="img/female/cateye/full/300/Intergalactic-1301494_large.jpg" alt="sunglass" height="240" width="141.5">
+<img src="img/female/cateye/full/100200/SG_02_large.jpg" alt="sunglass" height="240" width="141.5">
+<img src="img/female/cateye/full/200300/Eclipse-1301501_large.jpg" alt="sunglass" height="240" width="141.5">
+</div>
+
+<div id="review">
+	<p class = "dbigtext">Rating and Review</p>
+	<div id = "reviewcontent">
+	<img src="img/stars/5_star.png" alt="sunglass" height="22.75" width="122.75">from aquaya &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;May 28th,2013
+	<p>Excellent optical quality on the lenses. Solid frames. They look good. They're comfortable. <br/>I didn't want to be yet another person walking around with Ray Ban aviators. These are great.  </p>
+	</div>
+</div>
+</body>
