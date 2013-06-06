@@ -1,86 +1,211 @@
-can u see me update?
-I can edit using the website not the app
-ok use it in the website one
-besife the files there is a tab call Branches
-
-aya update
-can u see it???????
-ya 
-i can see it now
-you need to change ur branch into aya inorder to edit
-
-oh i see. i think i got it now. but yea, can only do it online, not in the app
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head><title>
-  Webzai
-</title><link href='http://az388832.vo.msecnd.net/201305250102158157/webzai-pages-templates-viewer/webzai-pages-templates-viewer.css' rel='stylesheet' type='text/css' />
-<script src='http://az388832.vo.msecnd.net/201305250102158157/webzai-pages-templates-viewer/webzai-pages-templates-viewer-templates.js' type='text/javascript'></script>
-<script src='http://az388832.vo.msecnd.net/201305250102158157/webzai-pages-templates-viewer/webzai-pages-templates-viewer.js' type='text/javascript'></script>
-
-<script type="text/javascript">
-    WebzaiController.initialize({
-        currentUser: null,
-        siteDomain: "www.webzai.com",
-        sitePort: 80,
-        developmentMode: false
-    });
-</script><link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" type="text/css" /><link href="http://fonts.googleapis.com/css?family=Arimo:400,700" rel="stylesheet" type="text/css" />
-
-    <script type="text/javascript">
-        var PageData = {"categories":[{"id":1,"name":"blank","title":"Blank"},{"id":2,"name":"themes","title":"Themes"},{"id":3,"name":"all","title":"All"},{"id":4,"name":"business","title":"Business"},{"id":5,"name":"portfolios","title":"Portfolios"},{"id":6,"name":"consultant","title":"Consultant"},{"id":8,"name":"lifestyle","title":"Lifestyle"},{"id":9,"name":"photography_and_art","title":"Photography & Art"},{"id":10,"name":"food_and_drinks","title":"Food & Drinks"},{"id":11,"name":"education","title":"Education"},{"id":12,"name":"music_and_dance","title":"Music & Dance"},{"id":13,"name":"night_life","title":"Night Life"},{"id":14,"name":"wedding","title":"Wedding"},{"id":15,"name":"design","title":"Design"},{"id":16,"name":"architecture_and_real estate","title":"Architecture & Real Estate"},{"id":17,"name":"cars_and_transportation","title":"Cars & Transportation"},{"id":18,"name":"beauty_and_fashion","title":"Beauty & Fashion"},{"id":19,"name":"computers_and_technology","title":"Computers & Technology"},{"id":22,"name":"hotels_and_travel","title":"Hotels & Travel"}]};
-        var Settings = {
-           siteDomain: "www.webzai.com",
-           sitePort: 80,
-           developmentMode: false
-       };
-
-	  var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-34864826-1']);
-      _gaq.push(['_setDomainName', 'webzai.com']);
-	  _gaq.push(['_trackPageview']);
-
-	  (function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    	ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-
-
-    </script>
-</head>
-<body>
-    <div id="upper-section" class="not-initialized">
-        <div id="navigation-bar">
-            <span class="height-normalizer"></span><!--
-         --><a href="/" class="image-sprite-logo vertically-centered"></a><!--
-         --><span id="categories-combo-box" class="vertically-centered"></span><!--
-         --><span id="templates-navigation">
-                <span id="prev-template-button" class="image-sprite-prev-template vertically-centered"></span><!--
-             --><span id="templates-navigation-status" class="vertically-centered"></span><!--
-             --><span id="next-template-button" class="image-sprite-next-template sprite-next-template vertically-centered"></span>
-            </span>
-            <span id="navigation-bar-right" class="right-block">
-                <span class="height-normalizer"></span><!--
-             --><a id="edit-site-button" href="#" target="_blank" class="button-type-25 orange vertically-centered">Edit</a><!--
-             --><span id="site-types-separator" class="webzai-templates-viewer-icon sprite-separator vertically-centered"></span><!--
-             --><span id="pc-type-button" class="image-sprite-pc site-type-button vertically-centered"></span><!--
-             --><span id="mobile-type-button" class="image-sprite-mobile site-type-button vertically-centered"></span>
-            </span>
-        </div>
-        <div id="upper-section-separator"></div>
-    </div>
-    <div id="site-container" >
-        <iframe id="site-iframe" frameborder="0" scrolling="yes" class="absolute-fill"></iframe>
-    </div>
-    <div id="site-overlay">
-        <div id="loading-panel">
-            <span class="height-normalizer"></span><!--
-         --><span id="loading-animation" class="vertically-centered"></span><!--
-         --><span class="loading-text vertically-centered">Loading Template...</span>
-        </div>
-    </div>
-</body>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>filter</title>
+		<link rel="stylesheet" type="text/css" href="assignment2style.css"/>
+		<script type="text/javascript" src="jquery-1.10.1.js" ></script>
+		<script type="text/javascript">
+  
+		$("document").ready(function() {
+			alert("the page");
+			
+			$('#btn_search').click(function(){
+				
+				
+				if($(".femalecheck").is(':checked')) {
+						$(".female").show();
+						
+					
+				} else {
+						$(".female").hide();
+				}
+				
+				if($(".malecheck").is(':checked')) {
+						
+				} else {
+						$(".male").hide();
+				}
+				
+				
+				if($(".roundcheck").is(':checked')) {
+					
+				} else {
+						$(".round").hide();
+				}
+				if($(".rectanglecheck").is(':checked')) {
+					
+				} else {
+						$(".rect").hide();
+				}
+				if($(".cateyecheck").is(':checked')) {
+					
+				} else {
+						$(".cateye").hide();
+				}
+				
+				
+				if($(".fullcheck").is(':checked')) {
+					
+				} else {
+						$(".full").hide();
+				}
+				if($(".semicheck").is(':checked')) {
+					
+				} else {
+						$(".semi").hide();
+				}
+				if($(".rimlesscheck").is(':checked')) {
+					
+				} else {
+						$(".rimless").hide();
+				}
+				
+				
+				if($(".100check").is(':checked')) {
+					
+				} else {
+						$(".100").hide();
+				}
+				if($(".100200check").is(':checked')) {
+					
+				} else {
+						$(".100200").hide();
+				}
+				if($(".200300check").is(':checked')) {
+					
+				} else {
+						$(".200300").hide();
+				}
+				if($(".300check").is(':checked')) {
+						$(".300").show();
+				} else {
+						$(".300").hide();
+				}
+				if($(".300check").is(':checked')&&$(".fullcheck").is(':checked')&&$(".cateyecheck").is(':checked')&&$(".femalecheck").is(':checked')) {
+						$(".femalecateyefull300").show();
+				} else {
+						$(".femalecateyefull300").hide();
+				}
+				
+				if($(".100200check").is(':checked')&&$(".fullcheck").is(':checked')&&$(".cateyecheck").is(':checked')&&$(".femalecheck").is(':checked')) {
+						$(".femalecateyefull100200").show();
+				} else {
+						$(".femalecateyefull100200").hide();
+				}
+				
+				if($(".200300check").is(':checked')&&$(".fullcheck").is(':checked')&&$(".cateyecheck").is(':checked')&&$(".femalecheck").is(':checked')) {
+						$(".femalecateyefull200300").show();
+				} else {
+						$(".femalecateyefull200300").hide();
+				}
+				
+				if($(".100check").is(':checked')&&$(".fullcheck").is(':checked')&&$(".cateyecheck").is(':checked')&&$(".femalecheck").is(':checked')) {
+						$(".femalecateyefull100").show();
+				} else {
+						$(".femalecateyefull100").hide();
+				}
+			})
+		});
+		
+		</script>	
+	</head>
+	
+	<body>
+		<div id = "filter">
+		<p>Gender</p>
+		<tr>
+		<td ><input type="checkbox" class="femalecheck" name="case" checked="checked"/>female</input></td>
+		<td ><input type="checkbox" class="malecheck" name="case" checked="checked"/>male</input></td>
+		</tr>
+		<p>shape</p>
+		<tr>
+		<td ><input type="checkbox" class="roundcheck" name="case" checked="checked"/>round</input></td>
+		<td ><input type="checkbox" class="rectanglecheck" name="case" checked="checked"/>rectangle</input></td>
+		<td ><input type="checkbox" class="cateyecheck" name="case" checked="checked"/>cateye</input></td>
+		</tr>
+		<p>Type</p>
+		<tr>
+		<td ><input type="checkbox" class="fullcheck" name="case" checked="checked"/>full frame</input></td>
+		<td ><input type="checkbox" class="semicheck" name="case" checked="checked"/>semi-rimless</input></td>
+		<td ><input type="checkbox" class="rimlesscheck" name="case" checked="checked"/>rimless</input></td>
+		</tr>
+		<p>Price</p>
+		<tr>
+		<td ><input type="checkbox" class="100check" name="case" checked="checked"/>under $100</input></td>
+		<td ><input type="checkbox" class="100200check" name="case" checked="checked"/>$100-$200</input></td>
+		<td ><input type="checkbox" class="200300check" name="case" checked="checked"/>$200-$300</input></td>
+		<td><input type="checkbox" class="300check" name="case" checked="checked"/>above $300</input></td>
+		</tr>
+		
+		<input type="button" value="Search" id="btn_search"/>
+		</div>
+		<div id ="male">
+			<ul>
+				<li>Helter Skelter Sunglasses</li>
+				<li>Anywhere Round Sunglasses</li>
+				<li>Super Duper Strength</li>
+			</ul>		
+		</div>
+		<div id = product>
+		<div class = "femalecateyefull300">
+			<img src="img/female/cateye/full/300/Intergalactic-1301494_large.jpg" alt="sunglass" height="240" width="141.5"> 
+			<p class="textdescri" >
+				<span>Intergalactic Clear</span>
+			</p>
+			<p class="textprice" >
+				<span>$348</span>
+			</p>
+			<img src="img/female/cateye/full/300/Intergalactic-1301495_large.jpg" alt="sunglass" height="240" width="141.5"> 
+			<p class="textdescri" >
+				<span>Intergalactic Crystal Pink</span>
+			</p>
+			<p class="textprice" >
+				<span>$380</span>
+			</p>
+		</div>
+		
+		<div class = "femalecateyefull100200">
+			<img src="img/female/cateye/full/100200/SG_1_large.jpg" alt="sunglass" height="240" width="141.5"> 
+			<p class="textdescri" >
+				<span>Atomic Black</span>
+			</p>
+			<p class="textprice" >
+				<span>$185</span>
+			</p>
+			<img src="img/female/cateye/full/100200/SG_02_large.jpg" alt="sunglass" height="240" width="141.5"> 
+			<p class="textdescri" >
+				<span>Optimist Peach</span>
+			</p>
+			<p class="textprice" >
+				<span>$150</span>
+			</p>
+		</div>
+		
+		<div class = "femalecateyefull200300">
+			<img src="img/female/cateye/full/200300/Eclipse-1301501_large.jpg" alt="sunglass" height="240" width="141.5"> 
+			<p class="textdescri" >
+				<span>Eclipse Black</span>
+			</p>
+			<p class="textprice" >
+				<span>$255</span>
+			
+		</div>
+		
+		<div class = "femalecateyefull100">
+			<img src="img/female/cateye/full/uder100/anytime1_large.jpg" alt="sunglass" height="240" width="141.5"> 
+			<p class="textdescri" >
+				<span>Anytime Crazy Tortoise</span>
+			</p>
+			<p class="textprice" >
+				<span>$55</span>
+			
+		</div>
+		
+		
+		
+		</div>
+		
+		
+	</body>
+	
 </html>
