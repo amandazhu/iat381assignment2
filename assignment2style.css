@@ -1,0 +1,37 @@
+/*project 2 stylesheet*/
+
+
+
+#filter
+{
+  font:1em DinPro, Helvetica, Arial, sans-serif;
+	text-align: left;
+	position:absolute;
+	left:400px;
+	top:250px;
+}
+
+#product
+{
+	font:1em DinPro, Helvetica, Arial, sans-serif;
+	position: relative;
+	width: 863px;
+	height:960px;
+	left:150px;
+	top:480px;
+	
+}
+
+.interproduct
+{
+	position: static;
+	float:left;
+	margin-left: 55px;
+	
+}
+
+.filtertext
+{	
+	font: 1em DinPro-Bold, Helvetica, Arial, sans-serif;
+}
+
